@@ -32,7 +32,7 @@ def auto_clicker():
         # Only click if 'clicking' is set to True
         if clicking:
             mouse_controller.click(mouse.Button.left, 1)  # Corrected click method
-            time.sleep(0.01)  # Sleep for a short amount of time between clicks
+            time.sleep(0.00001)  # Sleep for a short amount of time between clicks
         else:
             time.sleep(0.1)  # Sleep longer when not clicking to reduce CPU usage
 
